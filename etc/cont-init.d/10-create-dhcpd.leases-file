@@ -1,0 +1,5 @@
+#!/usr/bin/with-contenv bash
+
+if [[ ! -f /var/lib/dhcp/dhcpd.leases ]]; then
+	touch /var/lib/dhcp/dhcpd.leases
+fi
